@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-17T00:53:15 WIB" name="Annotation Execution Suite" finished-at="2025-09-17T00:53:31 WIB" duration-ms="16067">
+    <groups>
+    </groups>
+    <test started-at="2025-09-17T00:53:15 WIB" name="MyTestGroup" finished-at="2025-09-17T00:53:31 WIB" duration-ms="16067">
+      <class name="ApiImplementation">
+        <test-method is-config="true" signature="generate_token()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:15 WIB" name="generate_token" finished-at="2025-09-17T00:53:20 WIB" duration-ms="4742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_token -->
+        <test-method signature="create_booking()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:20 WIB" name="create_booking" finished-at="2025-09-17T00:53:21 WIB" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_booking -->
+        <test-method signature="generate_token()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:21 WIB" name="generate_token" finished-at="2025-09-17T00:53:23 WIB" duration-ms="1810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_token -->
+        <test-method signature="get_booking()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:23 WIB" name="get_booking" finished-at="2025-09-17T00:53:25 WIB" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking -->
+        <test-method signature="get_booking_ids()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:25 WIB" name="get_booking_ids" finished-at="2025-09-17T00:53:27 WIB" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_booking_ids -->
+        <test-method signature="partial_update_booking()[pri:0, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:27 WIB" name="partial_update_booking" finished-at="2025-09-17T00:53:28 WIB" depends-on-methods="ApiImplementation.create_booking" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partial_update_booking -->
+        <test-method signature="update_booking()[pri:2, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:28 WIB" name="update_booking" finished-at="2025-09-17T00:53:30 WIB" depends-on-methods="ApiImplementation.create_booking" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_booking -->
+        <test-method signature="delete_booking()[pri:3, instance:ApiImplementation@3c419631]" started-at="2025-09-17T00:53:30 WIB" name="delete_booking" finished-at="2025-09-17T00:53:31 WIB" depends-on-methods="ApiImplementation.create_booking" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_booking -->
+      </class> <!-- ApiImplementation -->
+    </test> <!-- MyTestGroup -->
+  </suite> <!-- Annotation Execution Suite -->
+</testng-results>
