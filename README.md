@@ -16,17 +16,7 @@ git clone https://github.com/iraramadhanty/apiautomation.git
 mvn clean install
 ```
 
-### 3. Run the tests:
-
-```bash
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
-```
-
-## 🛠️ How to Run
-
-### 1. Run Tests with Maven
-
-To execute the tests using Maven, use the following command:
+### 3. Run the project:
 
 ```bash
 mvn test -Dsurefire.suiteXmlFiles=testng.xml
